@@ -18,9 +18,9 @@ import { Separator } from "../ui/separator"
 export function ResearchFooter() {
   return (
     <footer className="bg-gradient-to-b from-gray-900 to-black text-gray-300 border-t border-gray-800">
-      <div className="container px-6 py-16 mx-auto">
+      <div className="w-full px-6 py-16 mx-auto">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-4">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-4">
           {/* Research Links */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}

@@ -58,7 +58,7 @@ const researchCategories = [
 
 export function ResearchSearchWithCategories() {
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-12">
+    <div className="w-full lg:max-w-7xl mx-auto px-4 py-12">
       {/* Search Section */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -114,7 +114,7 @@ export function ResearchSearchWithCategories() {
             {researchCategories.map((category) => (
               <CarouselItem
                 key={category.id}
-                className="pl-2 basis-1/2 md:basis-1/3 lg:basis-1/4"
+                className="pl-2 basis-1/1 md:basis-1/3 lg:basis-1/4"
               >
                 <motion.div
                   whileHover={{ y: -5 }}
